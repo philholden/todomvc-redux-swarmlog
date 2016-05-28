@@ -5,8 +5,15 @@ import { Provider } from 'react-redux'
 import App from './containers/App'
 import configureStore from './store/configureStore'
 import 'todomvc-app-css/index.css'
+import keys from './keys.json'
+import {
+  addReduxSwarmLog,
+  configureReduxSwarmLog
+} from '@philholden/redux-swarmlog'
 
 const store = configureStore()
+configureReduxSwarmLog({ reduxStore: store })
+addReduxSwarmLog({ name: 'todos', keys })
 
 render(
   <Provider store={store}>

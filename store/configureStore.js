@@ -1,8 +1,20 @@
-import { createStore } from 'redux'
+import {
+  createStore,
+  applyMiddleware
+} from 'redux'
+
+import {
+  reduxSwarmLogMiddleware
+} from '@philholden/redux-swarmlog'
+
 import rootReducer from '../reducers'
 
 export default function configureStore(initialState) {
-  const store = createStore(rootReducer, initialState)
+  const store = createStore(
+    rootReducer,
+    initialState,
+    applyMiddleware(reduxSwarmLogMiddleware)
+  )
 
   if (module.hot) {
     // Enable Webpack hot module replacement for reducers
