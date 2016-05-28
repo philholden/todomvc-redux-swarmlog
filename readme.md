@@ -1,5 +1,7 @@
 # Redux Todo MVC - Redux Swarmlog Example
 
+Adapt [Redux Todo MVC](https://github.com/reactjs/redux/tree/master/examples/todomvc) example from main Redux repo to sync peer to peer over WebRTC using [redux-swarmlog](https://github.com/philholden/redux-swarmlog).
+
 ```bash
 npm install
 npm start
