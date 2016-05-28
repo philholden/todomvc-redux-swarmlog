@@ -1,6 +1,6 @@
 # Redux Todo MVC - Redux Swarmlog Example
 
-## Egghead Video ...comming soon
+__Egghead Video ...comming soon__
 
 ![ScreenShot](https://raw.github.com/philholden/todomvc-redux-swarmlog/master/redux-swarmlog-egghead.png)
 
