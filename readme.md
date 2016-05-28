@@ -1,8 +1,8 @@
 # Redux Todo MVC - Redux Swarmlog Example
 
-![ScreenShot](https://raw.github.com/philholden/todomvc-redux-swarmlog/master/redux-swarmlog-egghead.png)
+## Egghead Video ...comming soon
 
-Egghead comming soon!
+![ScreenShot](https://raw.github.com/philholden/todomvc-redux-swarmlog/master/redux-swarmlog-egghead.png)
 
 Adapt the [Redux Todo MVC](https://github.com/reactjs/redux/tree/master/examples/todomvc) example from the main Redux repo to sync peer to peer over WebRTC using [redux-swarmlog](https://github.com/philholden/redux-swarmlog).
 
