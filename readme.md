@@ -1,6 +1,6 @@
 # Redux Todo MVC - Redux Swarmlog Example
 
-__Egghead Video ...comming soon__
+__Egghead Video__
 
 <a href="https://egghead.io/lessons/react-redux-peer-to-peer-todomvc-over-webrtc-using-swarmlog" target="_blank">![ScreenShot](https://raw.github.com/philholden/todomvc-redux-swarmlog/master/redux-swarmlog-egghead.png)</a>
 
